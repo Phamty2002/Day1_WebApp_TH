@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    max-width: 100%; /* Set maximum width to 100% */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 450px;
+    max-height: 500px; /* Adjust logo size as needed */
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+.right {
+    flex: 1;
+}
+
+/* Common styles for h1, ul, li */
+h1, ul, li {
+    margin: 0;
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+a {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.folders {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.folders div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* Smaller folder icons */
+.folders img {
+    max-width: 30px;
+    margin-right: 5px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+/* Common styles for .subject, .Experience, .Skills */
+.subject, .Experience, .Skills {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px; /* Reduce padding */
+    text-align: left;
+}
+
+/* Specific styles for .subject, .Experience, .Skills */
+.subject h1, .Experience h1, .Skills h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Skills li {
+    margin-bottom: 10px; /* Reduce margin */
+}
+
+.skill-name {
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+}
+
+.star-rating {
+    display: inline-block;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
